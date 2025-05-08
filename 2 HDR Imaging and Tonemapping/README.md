@@ -1,4 +1,4 @@
-# BBM 444 - Programming Assignment 2: HDR Imaging and Tonemapping
+# BBM 446 - Programming Assignment 2: HDR Imaging and Tonemapping
 
 ## Overview
 
@@ -55,6 +55,3 @@ This project explores High Dynamic Range (HDR) imaging by combining multiple exp
 - Use `gphoto2` to capture RAW+JPEG pairs for bonus.
 
 ---
-
-Hacettepe University  
-BBM 444 – Spring 2025
