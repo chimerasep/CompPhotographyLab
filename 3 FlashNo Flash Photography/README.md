@@ -1,4 +1,4 @@
-# BBM 444 - Programming Assignment 3: Flash/No-Flash Photography
+# BBM 446 - Programming Assignment 3: Flash/No-Flash Photography
 
 ## Overview
 
@@ -14,7 +14,7 @@ This project focuses on combining flash and no-flash image pairs to enhance imag
 
 ## Key Tasks
 
-### 1. Bilateral Filtering (100 pts)
+### 1. Bilateral Filtering 
 
 - **Basic Bilateral Filter**: Denoising the ambient image.
 - **Joint Bilateral Filter**: Use the flash image as guidance.
@@ -25,14 +25,14 @@ This project focuses on combining flash and no-flash image pairs to enhance imag
 - A<sub>Detail</sub> = A<sub>NR</sub> · F / (F<sub>Base</sub> + ε)
 - A<sub>Final</sub> = (1 − M) · A<sub>Detail</sub> + M · A<sub>Base</sub>
 
-### 2. Gradient-Domain Processing (100 pts)
+### 2. Gradient-Domain Processing 
 
 - **Gradient Calculation**: Get ∇a, ∇Φ′ for ambient and flash.
 - **Fused Gradient Field**: Use orientation coherence and saturation weighting to merge gradients.
 - **Poisson Solver**: Use conjugate gradient descent to reconstruct image from gradients.
 - **Parameter Tuning**: Experiment with σ, τ<sub>s</sub>, boundary conditions, and initialization.
 
-### 3. Capture Your Own Image Pairs (100 pts)
+### 3. Capture Your Own Image Pairs 
 
 - Capture one scene for bilateral denoising and another for gradient-domain fusion.
 - Apply the full pipeline from above to produce your best image enhancements.
@@ -54,6 +54,3 @@ This project focuses on combining flash and no-flash image pairs to enhance imag
 - Test: `div(grad(I)) ≈ Laplacian(I)` (excluding boundaries)
 
 ---
-
-Hacettepe University  
-BBM 444 – Spring 2025
