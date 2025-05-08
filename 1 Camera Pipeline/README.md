@@ -1,4 +1,4 @@
-# BBM 444 - Programming Assignment 1: Camera Pipeline
+# BBM 446 - Programming Assignment 1: Camera Pipeline
 
 ## Overview
 
@@ -75,5 +75,3 @@ Compared with:
 
 ---
 
-Hacettepe University  
-BBM 444 – Spring 2025
